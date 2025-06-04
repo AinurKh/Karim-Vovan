@@ -23,8 +23,11 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 
-    // PostgreSQL
-    runtimeOnly 'org.postgresql:postgresql'
+    // Flyway
+    implementation 'org.flywaydb:flyway-core:10.15.0'
+
+// PostgreSQL
+    runtimeOnly 'org.postgresql:postgresql:42.7.3'
 
     // Тесты
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
