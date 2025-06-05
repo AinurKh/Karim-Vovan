@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("/book") //get запросы по адресу http://localhost:8080/books
+@RequestMapping("/books") //get запросы по адресу http://localhost:8080/books
 public class BookController {
 
     private final BookRepository bookRepository;
