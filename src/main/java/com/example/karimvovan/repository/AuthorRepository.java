@@ -1,4 +1,7 @@
 package com.example.karimvovan.repository;
 
-public class AuthorRepository {
+import com.example.karimvovan.entity.Author;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface AuthorRepository extends JpaRepository<Author, Long> {
 }
